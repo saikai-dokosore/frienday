@@ -1,0 +1,12 @@
+.calendar {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.fc-view-harness {
+  height: 550px !important;
+
+  .fc-scrollgrid-sync-table {
+    height: 500px !important;
+  }
+}
