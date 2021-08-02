@@ -58,9 +58,9 @@ const renderEventContent = (eventContent: EventContentArg) => {
         <FullCalendar
           plugins={[ dayGridPlugin, timeGridPlugin, interactionPlugin ]}
           headerToolbar={{
-            left: 'prev,next today',
-            center: 'title',
-            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+            left: 'title',
+            center: 'prev,next',
+            right: 'dayGridMonth,timeGridDay'
           }}
           initialView='dayGridMonth'
           editable={true}
