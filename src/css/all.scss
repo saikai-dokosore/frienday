@@ -12,8 +12,13 @@
   --White-line: #EAEAEA;
   --Gray-line: #C4C4C4;
   --Gray-enable: #DDDDDD;
-  --Blue-enable: #61C6FF;
+  --Blue-accent: #1FA1FF;
   --Red-enable: #FF6161;
+  --Gray-btn-border: #CBCBCB;
+  --Tab-disable: #C4C4C4;
+  --Tab-enable: #262626;
+
+
   --fc-button-border-color: #FF6161;
   --fc-button-text-color: #FFFFFF;
   --fc-button-bg-color: #FF6161;
@@ -25,7 +30,7 @@
 
 
 body {
-  background-color: var(--Gray-background);
+  background-color: var(--White-background);
   color: var(--Black-text);
   font: 14px 'Lato', 'Noto Sans JP', sans-serif;
   font-weight: 500;
