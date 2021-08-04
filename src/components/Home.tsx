@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Calendar from "./Calendar";
+import Footer from "./Footer";
 
 type Users = {
   name: string;
@@ -23,6 +24,7 @@ const Home: React.FC = () => {
       <div className="calendar">
         <Calendar />
       </div>
+      <Footer />
     </div>
   );
 };
