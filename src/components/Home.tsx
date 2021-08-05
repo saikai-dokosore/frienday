@@ -9,7 +9,7 @@ type Users = {
 
 const Home: React.FC = () => {
   const { name } = useParams<Users>();
-  console.log(name);
+  console.log("参照元：" + document.referrer);
 
   return (
     <div>
