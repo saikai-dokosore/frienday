@@ -9,7 +9,13 @@ type Users = {
 
 const Home: React.FC = () => {
   const { name } = useParams<Users>();
-  console.log("参照元：" + document.referrer);
+
+  // 参照元を確認
+  if (document.referrer === "https://l.instagram.com/") {
+    console.log("from Instagram");
+  } else {
+    console.log("Not from Instagram : Referrer is " + document.referrer);
+  }
 
   return (
     <div>
@@ -18,12 +24,10 @@ const Home: React.FC = () => {
           <img src="/images/profile01.png" alt="profile" />
         </div>
         <div className="headerUserBox">
-          <h1>参照元：{document.referrer}</h1>
+          <h1>{name}</h1>
         </div>
       </div>
-      <div className="calendar">
-        <Calendar />
-      </div>
+
       <Footer />
     </div>
   );
