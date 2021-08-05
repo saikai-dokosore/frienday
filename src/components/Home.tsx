@@ -20,9 +20,9 @@ const Home: React.FC = () => {
   return (
     <div>
       <div className="header">
-        <div className="headerImageBox">
+        {/* <div className="headerImageBox">
           <img src="/images/profile01.png" alt="profile" />
-        </div>
+        </div> */}
         <div className="headerUserBox">
           <h1>{name}</h1>
         </div>
