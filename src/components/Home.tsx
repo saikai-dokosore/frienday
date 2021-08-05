@@ -18,7 +18,7 @@ const Home: React.FC = () => {
           <img src="/images/profile01.png" alt="profile" />
         </div>
         <div className="headerUserBox">
-          <h1>参照元：{name}</h1>
+          <h1>参照元：{document.referrer}</h1>
         </div>
       </div>
       <div className="calendar">
